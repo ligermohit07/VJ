@@ -47,7 +47,7 @@ class script(object):
     SUBSCRIPTION_TXT = """
 <b> Hᴇʀᴇ ɪs ʏᴏᴜ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ
 
-<code>https://telegram.me/{}?start=VJ-{}</code>
+https://telegram.me/{}?start=VJ-{}
 
 Sʜᴀʀᴇ ᴛʜɪs ʟɪɴᴋ ʏᴏᴜʀ ғʀɪᴇɴᴅs ᴀғᴛᴇʀ {} ɪɴᴠɪᴛᴀᴛɪᴏɴ ᴡᴇ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ 🎁.
 
