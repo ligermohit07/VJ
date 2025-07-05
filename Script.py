@@ -260,9 +260,9 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b> <a href=https://t.me/+SN86Mkj_eYo2ZDc1>{file_caption}</a>.</b>
 
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
+<b>💎 Powered By <a href=https://t.me/FilmyWabXGroup>FilmyWabx</a>..</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
