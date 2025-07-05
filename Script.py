@@ -151,9 +151,10 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    SEC_STATUS_TXT = """
+    SEC_STATUS_TXT = """<b><blockquote>
 ╔════❰ 🤖 ʙᴏᴛ ᴅᴀᴛᴀʙᴀsᴇ   ❱═❍⊱❁۪۪
-║╭━━━━━━━━━━━━━━║┃
+║╭━━━━━━━━━━━━━━
+║┃
 ║┣⪼ 👥 ᴛᴏᴛᴀʟ ᴜsᴇʀs - <code>{}</code>
 ║┃
 ║┃
@@ -169,7 +170,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ║┣⪼ 📭 ғʀᴇᴇ ꜱᴛᴏʀᴀɢᴇ - <code>{} MB</code>
 ║┃
 ║╰━━━━━━━━━━━━━━━➣ 
-╚═══❰ ♻️ ꜰɪʟᴇs ᴅᴀᴛᴀʙᴀsᴇ  ❱══❍⊱❁۪۪"""
+╚═══❰ ♻️ ꜰɪʟᴇs ᴅᴀᴛᴀʙᴀsᴇ  ❱══❍⊱❁۪۪</b></blockquote>"""
     
     STATUS_TXT = """<b>Total Files From All DBs: <code>{}</code>
 
