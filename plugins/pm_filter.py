@@ -1972,7 +1972,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("📩 Invite", url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
             InlineKeyboardButton("🧮 0", callback_data="help"),
-            InlineKeyboardButton("◀️ Back", callback_data="hindi_info")
+            InlineKeyboardButton("◀️ Back", callback_data="start")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2081,7 +2081,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "r_txt":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
+            InlineKeyboardButton('⬅️ Back', callback_data='help'),
+            InlineKeyboardButton('Promote 👾', url=OWNER_LNK)
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
