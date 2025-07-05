@@ -1952,10 +1952,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⚠️ ᴄᴏᴘʏʀɪɢʜᴛ ᴅɪsᴄʟᴀɪᴍᴇʀ ⚠️', url='')
+            InlineKeyboardButton('⚠️ ᴄᴏᴘʏʀɪɢʜᴛ ᴅɪsᴄʟᴀɪᴍᴇʀ ⚠️', url=f'https://telegra.ph/𝗗𝗶𝘀𝗰𝗹𝗮𝗶𝗺𝗲𝗿-06-25')
         ],[
             InlineKeyboardButton('◀️ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ☎️', callback_data='close_data')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ☎️', url=OWNER_LNK)
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1970,9 +1970,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "subscription":
         buttons = [[
-            InlineKeyboardButton("📩Share", url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
+            InlineKeyboardButton("📩 Invite", url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
             InlineKeyboardButton("🧮 0", callback_data="help"),
-            InlineKeyboardButton("◀️Back", callback_data="hindi_info")
+            InlineKeyboardButton("◀️ Back", callback_data="hindi_info")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
