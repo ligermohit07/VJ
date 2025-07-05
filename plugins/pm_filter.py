@@ -1829,11 +1829,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('🌿 Bot Update Channel', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('💰Money', callback_data="shortlink_info"),
-                InlineKeyboardButton('⚠️Disclaimer', callback_data='about')
+                InlineKeyboardButton('💰 Earn Money', callback_data="shortlink_info"),
+                InlineKeyboardButton('⚠️ Disclaimer', callback_data='about')
             ],[
-                InlineKeyboardButton('🎟️Referral', callback_data='subscription'),
-                InlineKeyboardButton('🎏Promotion', callback_data='r_txt')
+                InlineKeyboardButton('🎟️ Referral', callback_data='subscription'),
+                InlineKeyboardButton('🎏 Promotion', callback_data='r_txt')
             ]]
         else:
             buttons = [[
@@ -2190,7 +2190,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton("👇Select Your Language 👇", callback_data="laninfo")
         ],[
-            InlineKeyboardButton("Tamil", callback_data="tamil_info"),
+            InlineKeyboardButton("Tamil", callback_data="money_group"),
             InlineKeyboardButton("English", callback_data="english_info"),
             InlineKeyboardButton("Hindi", callback_data="hindi_info")
         ],[
@@ -2329,7 +2329,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "tamil_info":
+    elif query.data == "money_group":
         btn = [[
             InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
             InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
