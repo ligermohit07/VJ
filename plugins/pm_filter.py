@@ -1964,7 +1964,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.U_NAME, temp.B_NAME, OWNER_LNK),
+            text=script.ABOUT_TXT.format(query.from_user.mention, temp.B_NAME, OWNER_LNK),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -2081,8 +2081,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "r_txt":
         buttons = [[
-            InlineKeyboardButton('⬅️ Back', callback_data='help'),
-            InlineKeyboardButton('Promote 👾', url=OWNER_LNK)
+            InlineKeyboardButton('👾 Promote', url=OWNER_LNK),
+            InlineKeyboardButton('⬅️ Back', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
