@@ -735,31 +735,7 @@ Also your tutorial will be Added Your Group..."""
 
 এছাড়াও আপনার দল ভিডিও সংগ্রহের প্রশিক্ষণ দেবে..."""
 
-    RENAME_TXT = """
-🌌 <b><u>HOW TO SET THUMBNAIL</u></b>
-  
-•> /set_thumb - send any picture to automatically set thumbnail.
-•> /del_thumb use this command and delete your old thumbnail.
-•> /view_thumb use this command view your current thumbnail.
-
-📑 <b><u>HOW TO SET CUSTOM CAPTION</u></b>
-
-•> /set_caption - set a custom caption
-•> /see_caption - see your custom caption
-•> /del_caption - delete custom caption
-
-Example:- /set_caption 📕 File Name: {filename}
-💾 Size: {filesize}
-⏰ Duration: {duration}
-
-✏️ <b><u>HOW TO RENAME A FILE</u></b>
-
-•> /rename - send any file and click rename option and type new file name and \nthen select [ document, video, audio ]👈 choice this.
-"""
-
-    STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
-
-/stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
+    RENAME_TXT = """<b>Reach more audience by promoting your channel, group or bot here. Contact <a href='DevThanos02.t.me'>ADMIN</a> for more details.</b>"""
 
 
 # Don't Remove Credit @VJ_Botz
