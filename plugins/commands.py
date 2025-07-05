@@ -51,11 +51,11 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🌿 Bot Update Channel', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('💰Money', callback_data="shortlink_info"),
-                InlineKeyboardButton('⚠️Disclaimer', callback_data='about')
+                InlineKeyboardButton('💰 Earn Money', callback_data="shortlink_info"),
+                InlineKeyboardButton('⚠️ Disclaimer', callback_data='about')
             ],[
-                InlineKeyboardButton('🎟️Referral', callback_data='subscription'),
-                InlineKeyboardButton('🎏Promotion', callback_data='r_txt')
+                InlineKeyboardButton('🎟️ Referral', callback_data='subscription'),
+                InlineKeyboardButton('🎏 Promotion', callback_data='r_txt')
             ]]
         else:
             buttons = [[
@@ -72,7 +72,7 @@ async def start(client, message):
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAImK2hpTb0RmvQPI4LuAAFkOe_pASZmFQAC8BsAAtTMOVf_L6gIUCe6Fh4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -133,11 +133,11 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('🌿 Bot Update Channel', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('💰Money', callback_data="shortlink_info"),
-                InlineKeyboardButton('⚠️Disclaimer', callback_data='about')
+                InlineKeyboardButton('💰 Earn Money', callback_data="shortlink_info"),
+                InlineKeyboardButton('⚠️ Disclaimer', callback_data='about')
             ],[
-                InlineKeyboardButton('🎟️Referral', callback_data='subscription'),
-                InlineKeyboardButton('🎏Promotion', callback_data='r_txt')
+                InlineKeyboardButton('🎟️ Referral', callback_data='subscription'),
+                InlineKeyboardButton('🎏 Promotion', callback_data='r_txt')
             ]]
         else:
             buttons = [[
@@ -184,11 +184,11 @@ async def start(client, message):
                 buttons = [[
                 InlineKeyboardButton('🌿 Bot Update Channel', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('💰Money', callback_data="shortlink_info"),
-                InlineKeyboardButton('⚠️Disclaimer', callback_data='about')
+                InlineKeyboardButton('💰 Earn Money', callback_data="shortlink_info"),
+                InlineKeyboardButton('⚠️ Disclaimer', callback_data='about')
             ],[
-                InlineKeyboardButton('🎟️Referral', callback_data='subscription'),
-                InlineKeyboardButton('🎏Promotion', callback_data='r_txt')
+                InlineKeyboardButton('🎟️ Referral', callback_data='subscription'),
+                InlineKeyboardButton('🎏 Promotion', callback_data='r_txt')
             ]]
             else:
                 buttons = [[
