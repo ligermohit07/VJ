@@ -702,7 +702,7 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
                 for file in files:
                     cap += f"<b>📕 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
     else:
-        cap = f"<b>🎬 ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ : <code>{search}</code>\n</b>"
+        cap = f" "
         cap+="<b>📂 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ</b>\n\n"
         for file in files:
             cap += f"<b>📕 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
