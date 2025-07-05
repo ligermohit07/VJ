@@ -1952,11 +1952,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', url="https://github.com/VJBots/VJ-FILTER-BOT")
+            InlineKeyboardButton('⚠️ ᴄᴏᴘʏʀɪɢʜᴛ ᴅɪsᴄʟᴀɪᴍᴇʀ ⚠️', url='')
         ],[
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('◀️ ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ☎️', callback_data='close_data')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1971,7 +1970,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "subscription":
         buttons = [[
-            InlineKeyboardButton('⇚Back', callback_data='start')
+            InlineKeyboardButton("📩Share", url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
+            InlineKeyboardButton("🧮 0", callback_data="help"),
+            InlineKeyboardButton("◀️Back", callback_data="hindi_info")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
