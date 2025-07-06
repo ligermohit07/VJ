@@ -1964,7 +1964,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.ABOUT_TXT.format(query.from_user.mention, temp.B_NAME, OWNER_LNK),
+            text=script.DISCLAIMER_TXT.format(query.from_user.mention, temp.B_NAME, OWNER_LNK),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -1981,7 +1981,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto("https://files.catbox.moe/260etf.jpg")
         )
         await query.message.edit_text(
-            text=script.SUBSCRIPTION_TXT.format(temp.U_NAME, query.from_user.id, REFERAL_COUNT, REFERAL_COUNT),
+            text=script.REFERRAL_TXT.format(temp.U_NAME, query.from_user.id, REFERAL_COUNT, REFERAL_COUNT),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -2091,7 +2091,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.RENAME_TXT,
+            text=script.PROMOTION_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
