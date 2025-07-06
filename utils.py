@@ -655,9 +655,9 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
         IMDB_CAP = temp.IMDB_CAP.get(query.from_user.id)
         if IMDB_CAP:
             cap = IMDB_CAP
-            cap+="<b>\n\n📂 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ\n\n"
+            cap+="<b>\n\n📚 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ\n\n"
             for file in files:
-                cap += f"<b>📕 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+                cap += f"<b>📒 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
         else:
             imdb = await get_poster(search, file=(files[0])["file_name"]) if settings["imdb"] else None
             if imdb:
@@ -693,19 +693,19 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
                     url=imdb['url'],
                     **locals()
                 )
-                cap+="<b>\n\n📂 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ</b>\n\n"
+                cap+="<b>\n\n📚 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ</b>\n\n"
                 for file in files:
-                    cap += f"<b>📕 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+                    cap += f"<b>📒 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
             else:
                 cap = f"<b>Tʜᴇ Rᴇꜱᴜʟᴛꜱ Fᴏʀ ☞ {search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ ☞ {query.from_user.mention}\n\nʀᴇsᴜʟᴛ sʜᴏᴡ ɪɴ ☞ {remaining_seconds} sᴇᴄᴏɴᴅs\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ ☞ : {query.message.chat.title}\n\n⚠️ ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️\n\n</b>"
-                cap+="<b>📂 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ</b>\n\n"
+                cap+="<b>📚 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ</b>\n\n"
                 for file in files:
-                    cap += f"<b>📕 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+                    cap += f"<b>📒 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
     else:
         cap = f" "
-        cap+="<b>📂 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ</b>\n\n"
+        cap+="<b>📚 ʏᴏᴜʀ ꜱᴇᴀʀᴄʜᴇᴅ ғɪʟᴇꜱ ᴀʀᴇ ʜᴇʀᴇ</b>\n\n"
         for file in files:
-            cap += f"<b>📕 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+            cap += f"<b>📒 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
     return cap
 
 
