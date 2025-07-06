@@ -31,7 +31,7 @@
         #title = results[0]["title"][:40]       
         #thumbnail = results[0]["thumbnails"][0]
         #thumb_name = f'thumb{title}.jpg'
-        thumb = requests.get(thumbnail, allow_redirects=True)
+        #thumb = requests.get(thumbnail, allow_redirects=True)
         #open(thumb_name, 'wb').write(thumb.content)
         #performer = f"[NETWORKS™]" 
        # duration = results[0]["duration"]
