@@ -228,9 +228,7 @@ Nᴀᴍᴇ - {}"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
-    SHORTLINK_INFO = """
-
-🫵 Select Your Language And Earn Money 💰"""
+    SHORTLINK_INFO = """<b>Select Your Language And Start Earning With This Bot🤖..</b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -514,8 +512,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 மேலும் உங்கள் குழுவில் பயிற்சி வீடியோ தொகுப்பு ஆகிடும்..."""
 
-    ENGLISH_INFO = """<b><blockquote>💸 ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ᴛʜɪs ʙᴏᴛ -</blockquote>
-
+    ENGLISH_INFO = """<b><blockquote>How To Earn Money Form This Bot 🤖
 1:- ʏᴏᴜ ᴍᴜꜱᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀꜱᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 50 ᴍᴇᴍʙᴇʀꜱ.
 
 2:- ᴍᴀᴋᴇ ᴛʜɪs {} ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛꜱ.
@@ -531,7 +528,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 #Sample:-
 /shortlink <code>flameurl.com CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E</code>
-/set_tutorial <code>https://t.me/HowTOdo4/15</code>..."""
+/set_tutorial <code>https://t.me/HowTOdo4/15</code>...</blockquote></b>"""
 
     TELUGU_INFO = """..."""
 
