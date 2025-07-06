@@ -514,59 +514,26 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 மேலும் உங்கள் குழுவில் பயிற்சி வீடியோ தொகுப்பு ஆகிடும்..."""
 
-    ENGLISH_INFO = """
-Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
+    ENGLISH_INFO = """<b><blockquote>💸 ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ᴛʜɪs ʙᴏᴛ -</blockquote>
 
+1:- ʏᴏᴜ ᴍᴜꜱᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀꜱᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 50 ᴍᴇᴍʙᴇʀꜱ.
 
- Now you can earn money on Telegram too.
+2:- ᴍᴀᴋᴇ ᴛʜɪs {} ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛꜱ.
 
- You must have 1 group to earn money by telegram.
- If you have a group, you can earn money by adding our bot to your group.
+3:- ᴄʀᴇᴀᴛᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ sʜᴏʀᴛɴᴇʀ ʟɪᴋᴇ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇ ᴛʜɪs ʙᴇsᴛ sʜᴏʀᴛɴᴇʀ <a href= "https://flameurl.com/ref/Ligermohit">Flame Url</a>.
 
- The more members you have in your group, the higher your income will be.
+4:- ᴛʜᴇɴ sᴇᴛ ʏᴏᴜʀ sʜᴏʀᴛɴᴇʀ ᴅᴇᴛᴀɪʟs ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ 
 
- How and what to do
+5:- ᴀᴅᴅ ᴀʟꜱᴏ ꜱʜᴏʀᴛɴᴇʀ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ 
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+/shortlink <code>{shortener_site} {shortener_api}</code>
+/set_tutorial <code>{tutorial_video_link}</code>
 
- Step 2: Add your website and API
+#Sample:-
+/shortlink <code>flameurl.com CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E</code>
+/set_tutorial <code>https://t.me/HowTOdo4/15</code>..."""
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
-
- Add a video
-
- 👇 How to add 👇
-
- Exp: /set_tutorial video link
-
-Also your tutorial will be Added Your Group..."""
-
-    TELUGU_INFO = """
-హే <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
-
-
- ఇప్పుడు మీరు టెలిగ్రామ్‌లో కూడా డబ్బు సంపాదించవచ్చు.
-
- టెలిగ్రామ్ ద్వారా డబ్బు సంపాదించడానికి మీరు తప్పనిసరిగా 1 గ్రూప్‌ని కలిగి ఉండాలి.
- మీకు గ్రూప్ ఉన్నట్లయితే, మా బాట్‌ను మీ గ్రూప్‌కి జోడించడం ద్వారా మీరు డబ్బు సంపాదించవచ్చు.
-
- మీ గ్రూప్‌లో ఎంత ఎక్కువ మంది సభ్యులు ఉంటే మీ ఆదాయం అంత ఎక్కువగా ఉంటుంది.
-
- ఎలా మరియు ఏమి చేయాలి
-
- దశ 1: ఈ VJ-FILTER-BOT బాట్‌ని మీ సమూహానికి నిర్వహించండి
-
- దశ 2: మీ వెబ్‌సైట్ మరియు APIని జోడించండి
-
- గడువు: /shortlink xtz.in 4b392f8eb6ad711fbe58
-
- వీడియోను జోడించండి
-
- 👇 ఎలా జోడించాలి 👇
-
- గడువు: /set_tutorial వీడియో లింక్
-
-అలాగే మీ బృందం వీడియో సేకరణకు శిక్షణ ఇస్తుంది..."""
+    TELUGU_INFO = """..."""
 
     HINDI_INFO = """
 अरे <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
