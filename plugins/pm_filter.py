@@ -1954,7 +1954,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚠️ Copyright Disclaimer ⚠️', url=f'https://telegra.ph/𝗗𝗶𝘀𝗰𝗹𝗮𝗶𝗺𝗲𝗿-06-25')
         ],[
-            InlineKeyboardButton('☎️ Contact', LNK=OWNER_LNK),
+            InlineKeyboardButton('☎️ Contact', url=OWNER_LNK),
             InlineKeyboardButton('◀️ Back', callback_data='start')
         ]]
         await client.edit_message_media(
@@ -2373,9 +2373,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton('🔰ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton("◀️ Back", url=f'english_info'),
+            InlineKeyboardButton("Contact ☎️", url=OWNER_LNK),
             InlineKeyboardButton("📋 2/2", callback_data="helpp"),
-            InlineKeyboardButton("Contact ☎️", url=OWNER_LNK)
+            InlineKeyboardButton("◀️ Back", callback_data='english_info')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
