@@ -36,7 +36,7 @@ class script(object):
 
 👨‍💻 Cᴏᴍᴍᴀɴᴅ : /clone</b>"""
 
-    SUBSCRIPTION_TXT = """
+    REFERRAL_TXT = """
 <b> Hᴇʀᴇ ɪs ʏᴏᴜ ʀᴇғᴇʀʀᴀʟ ʟɪɴᴋ
 
 https://telegram.me/{}?start=VJ-{}
