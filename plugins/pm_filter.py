@@ -2338,7 +2338,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton('🔰ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton("◀️ Back", url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
+            InlineKeyboardButton("◀️ Back", callback_data='start'),
             InlineKeyboardButton("📋 1/2", callback_data="helpp"),
             InlineKeyboardButton("Next ▶️", callback_data="english_info2")
         ]]
@@ -2373,7 +2373,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         btn = [[
             InlineKeyboardButton('🔰ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ🔰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton("◀️ Back", url=f'https://t.me/share/url?url=https://telegram.me/{temp.U_NAME}?start=VJ-{query.from_user.id}'),
+            InlineKeyboardButton("◀️ Back", url=f'english_info'),
             InlineKeyboardButton("📋 2/2", callback_data="helpp"),
             InlineKeyboardButton("Contact ☎️", url=OWNER_LNK)
         ]]
