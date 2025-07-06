@@ -12,12 +12,11 @@ class script(object):
     
 ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ᴀɴᴅ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs ᴊᴜsᴛ ᴛʏᴘᴇ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 💘</b>"""
     
-    HELP_TXT = """<b>ʜᴇʟʟᴏ {}
-ʜᴇʀᴇ ɪs ᴀʟʟ ᴍʏ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇs.</b>"""
+    PROMOTION_TXT = """<b>Reach more audience by promoting your channel, group or bot here. Contact <a href='DevThanos02.t.me'>ADMIN</a> for more details.</b>"""
 
-    ABOUT_TXT = """<b><blockquote>Hᴇʏ {}🍁</blockquote>
-    
-    ʙᴇғᴏʀᴇ ʏᴏᴜ ꜱᴇᴀʀᴄʜ / ʀᴇǫᴜᴇꜱᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ ʀᴇᴀᴅ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ᴀɴᴅ ʀᴜʟᴇꜱ ‼️"""
+    DISCLAIMER_TXT = """<b><blockquote>Hᴇʏ {}🍁</blockquote>
+
+ʙᴇғᴏʀᴇ ʏᴏᴜ ꜱᴇᴀʀᴄʜ / ʀᴇǫᴜᴇꜱᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ ʀᴇᴀᴅ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ᴀɴᴅ ʀᴜʟᴇꜱ ‼️</b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
